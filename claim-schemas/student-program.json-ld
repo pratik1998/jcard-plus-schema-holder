@@ -16,7 +16,7 @@
         "program": {
           "@id": "jcard-plus-vocab:program",
           "@type": "serialization:IndexDataSlotA"
-        },
+        }
       }
     }
   }]
