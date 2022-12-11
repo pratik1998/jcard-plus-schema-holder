@@ -1,0 +1,23 @@
+{
+  "@context": [{
+    "@version": 1.1,
+    "@protected": true,
+    "id": "@id",
+    "type": "@type",
+    "StudentProgramCredential": {
+      "@id": "https://raw.githubusercontent.com/pratik1998/jcard-plus-schema-holder/master/claim-schemas/student-program.json-ld#StudentProgramCredential",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "jcard-plus-vocab": "https://raw.githubusercontent.com/pratik1998/jcard-plus-schema-holder/master/claim-schemas-vocab/student-program.json",
+        "serialization": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/serialization.md#",
+        "program": {
+          "@id": "jcard-plus-vocab:program",
+          "@type": "serialization:IndexDataSlotA"
+        },
+      }
+    }
+  }]
+}
