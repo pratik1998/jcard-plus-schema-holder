@@ -5,13 +5,13 @@
     "id": "@id",
     "type": "@type",
     "AgeCredential": {
-      "@id": "https://raw.githubusercontent.com/pratik1998/jcard-plus-schema-holder/master/claim-schemas/student-age.json-ld#AgeCredential",
+      "@id": "https://raw.githubusercontent.com/zkSnack/jcard-plus-schema-holder/master/claim-schemas/student-age.json-ld#AgeCredential",
       "@context": {
         "@version": 1.1,
         "@protected": true,
         "id": "@id",
         "type": "@type",
-        "jcard-plus-vocab": "https://raw.githubusercontent.com/pratik1998/jcard-plus-schema-holder/master/claim-schemas-vocab/student-age.json",
+        "jcard-plus-vocab": "https://raw.githubusercontent.com/zkSnack/jcard-plus-schema-holder/master/claim-schemas-vocab/student-age.json",
         "serialization": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/serialization.md#",
         "birthDay": {
             "@id": "jcard-plus-vocab:birthDay",
